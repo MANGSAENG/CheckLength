@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Input and Result Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="header-title">글자수 체크 (노벨피아, 문피아)</div>
+            <div class="header-buttons">
+                <div id="lightModeButton" class="mode-button">화이트 모드</div>
+                <div id="darkModeButton" class="mode-button">다크 모드</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="left">
+            <textarea id="inputText" maxlength="100000" placeholder="최대 10만 글자 제한"></textarea>
+        </div>
+        <div class="divider"></div>
+        <div class="right">
+            <div id="submitButton" class="submit-button">글자수 체크</div>
+            <div id="resultContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
