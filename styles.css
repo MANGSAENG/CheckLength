@@ -138,6 +138,7 @@ textarea {
 .dark-mode #resultContainer {
     background-color: #444;
     border-color: #666;
+    color: #ffffff;
 }
 
 .dark-mode .mode-button {
